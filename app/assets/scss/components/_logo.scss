@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    &-wrap {
+      margin-left: 15px;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--active-text-color)
+  }
+
+  &__descr {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

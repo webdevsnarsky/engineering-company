@@ -4,7 +4,7 @@
     content: "";
     position: absolute;
     top: 120px;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: var(--second-bg-color);
   }
@@ -26,8 +26,8 @@
     padding: 45px 5px;
     // border-bottom: 1px solid var(--second-bg-color);
     &:hover {
-      border-left: 2px solid var(--second-bg-color);
-      border-right: 2px solid var(--second-bg-color);
+      border-left: 1px solid var(--second-bg-color);
+      border-right: 1px solid var(--second-bg-color);
       background-color: var(--active-bg-color);
     }
     &-wrap {

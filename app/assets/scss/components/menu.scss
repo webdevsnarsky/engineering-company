@@ -1,3 +1,28 @@
 .menu {
+  margin: 0;
+  padding-left: 70px;
   display: flex;
+
+  
+  &__item {
+    list-style-type: none;
+  }
+
+  &__link {
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    &:hover {
+      background-color: var(--second-active-bg-color);
+      color: var(--second-text-color);
+    }
+    &:focus {
+      background-color: var(--active-bg-color-dark);
+      color: var(--second-text-color);
+    }
+
+  }
 }
