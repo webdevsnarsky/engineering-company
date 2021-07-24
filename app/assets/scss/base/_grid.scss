@@ -1,8 +1,20 @@
 :root {
-  --content-width: 1336px;
-  --gutter: 15px;
-  --mob-padding: 35px;
-
+    --content-width: 1012px;
+    --gutter: 15px;
+    --mob-padding: 35px;
+  
+    --primary-text-color: #3c4148;
+    --second-text-color: #ffffff;
+    --active-text-color: #f29700;
+  
+    --primary-bg-color: #ffffff;
+    --second-bg-color: #AEAEAE;
+    --active-bg-color: #eeeeee;
+    // --body-bg-color: #000000;
+  
+    // --bottom-border-color: rgba(255, 255, 255, 0.3);
+  
+    // --gradient: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
 $breakpoints: (
@@ -52,6 +64,7 @@ $breakpoints: (
   max-width: calc(var(--content-width));
   padding: 0 var(--mob-padding);
   margin: 0 auto;
+  background-color: var(--primary-bg-color);
 }
 
 .row {

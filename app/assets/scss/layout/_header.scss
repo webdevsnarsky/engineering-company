@@ -1,4 +1,21 @@
 .header {
-  background-color: blue;
-  color: #fff;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-bg-color);
+  } 
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    display: flex;
+  }
 }
