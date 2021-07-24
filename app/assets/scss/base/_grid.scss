@@ -1,16 +1,19 @@
 :root {
   --content-width: 1336px;
   --gutter: 12px;
-  --mob-padding: 20px;
+  --mob-padding: 35px;
 
 }
 
 $breakpoints: (
   // breakpoints
-  xl: 1400px,
-  lg: 1200px,
-  md: 992px,
-  sm: 640px
+  xxl: 1400px,
+  xl: 1399px,
+  lg: 1199px,
+  md: 991px,
+  sm: 767px,
+  xsm: 575
+
 );
 
 // media queries mixins
