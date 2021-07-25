@@ -101,8 +101,8 @@
     bottom: 40px;
     transform: translateX(-50%);
     display: flex;
-    grid-column-gap: 10px;
     &-item {
+      margin: 0 5px;
       display: block;
       width: 10px;
       height: 10px;
