@@ -13,11 +13,19 @@
     background-position: center 5%;
 
     &-inner {
+      height: 100%;
       padding: 60px 0 90px 110px;
       background-image: url("../img/promo/promo-overlay.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+
+      @include breakpoint(sm) {
+        padding: 60px 50px 90px 50px;
+      }
+      @include breakpoint(xsm) {
+        padding: 30px 20px 45px 20px;
+      }
     }
 
     &-subtitle {
@@ -30,6 +38,14 @@
       background-color: var(--second-active-bg-color);
       color: var(--second-text-color);
       font-size: 16px;
+
+      @include breakpoint(md) {
+        font-size: 14px;
+      }
+      @include breakpoint(sm) {
+        margin-bottom: 20px;
+        font-size: 12px;
+      }
     }
 
     &-title {
@@ -40,6 +56,20 @@
       line-height: 48px;
       color: var(--second-text-color);
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+
+      @include breakpoint(md) {
+        font-size: 54px;
+      }
+
+      @include breakpoint(sm) {
+        max-width: 415px;
+        font-size: 48px;
+      }
+      @include breakpoint(xsm) {
+        line-height: 32px;
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
     }
 
     &-descr {
@@ -51,6 +81,17 @@
       font-weight: 700;
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
       color: #ffffff;
+
+      @include breakpoint(md) {
+        font-size: 14px;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 12px;
+      }
+      @include breakpoint(sm) {
+        line-height: 16px;
+      }
     }
   }
 

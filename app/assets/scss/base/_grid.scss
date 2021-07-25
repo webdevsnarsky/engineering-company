@@ -1,5 +1,5 @@
 :root {
-    --content-width: 1012px;
+    --content-width: 1010px;
     --gutter: 15px;
     --mob-padding: 35px;
   
@@ -15,11 +15,6 @@
     --slide-bg-color: #0e65b7;
 
     --active-border-color: #f29700;
-    // --body-bg-color: #000000;
-  
-    // --bottom-border-color: rgba(255, 255, 255, 0.3);
-  
-    // --gradient: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
 $breakpoints: (
@@ -29,7 +24,7 @@ $breakpoints: (
   lg: 1199px,
   md: 991px,
   sm: 767px,
-  xsm: 575
+  xsm: 575px,
 
 );
 

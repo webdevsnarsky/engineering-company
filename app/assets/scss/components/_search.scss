@@ -2,6 +2,10 @@
   position: relative;
   display: flex;
   align-items: center;
+  
+  @include breakpoint(sm) {
+    justify-content: center;
+  }
 
   &__input {
     position: relative;
@@ -24,5 +28,10 @@
     width: 16px;
     height: 16px;
     cursor: pointer;
+
+    @include breakpoint(sm) {
+      position: static;
+      margin-left: 15px;
+    }
   }
 }

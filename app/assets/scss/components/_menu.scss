@@ -15,6 +15,12 @@
     padding: 15px 15px;
     font-weight: 700;
     color: var(--primary-text-color);
+
+    @include breakpoint(md) {
+      padding: 12px 12px;
+      font-size: 14px;
+    }
+
     &:hover {
       background-color: var(--second-active-bg-color);
       color: var(--second-text-color);
